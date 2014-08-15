@@ -1059,6 +1059,7 @@ print"</pre>";
 
 <h3>THIS PROGRAM IS STILL IN A BETA STAGE, PLEASE REPORT ANY BUGS AT <a href="http://dev.wifidog.org">http://dev.wifidog.org</a></h3>
 
+<p>password is: $password</p>
 <p>To Continue this installation you will need to enter the password found in the file: <em>$password_file</em> on your server's filesystem. Please enter it when prompted. This is to stop accidental or malicious activity from users gaining access to the install.php file if you dont move it from the base directory. <strong>PLEASE LEAVE THE USERNAME FIELD BLANK</strong></p>
 
 EndHTML;

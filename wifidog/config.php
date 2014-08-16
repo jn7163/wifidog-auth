@@ -80,7 +80,7 @@ define('CONF_DATABASE_PORT', '5432');
 define('CONF_DATABASE_USER', 'wifidog');
 
 // Password for database access.
-define('CONF_DATABASE_PASSWORD', 'wifidogtest');
+define('CONF_DATABASE_PASSWORD', 'wifidog');
 
 // Name of database used by WiFiDOG auth server.
 define('CONF_DATABASE_NAME', 'wifidog');
@@ -93,7 +93,7 @@ define('CONF_DATABASE_NAME', 'wifidog');
  * page is displayed. If you set this to true, you must set a cron job on the
  * server which will execute the script "cron/cleanup.php".
  */
-define('CONF_USE_CRON_FOR_DB_CLEANUP', false);
+define('CONF_USE_CRON_FOR_DB_CLEANUP', true);
 
 /**
  * SQL queries profiling.  This will output all SQL queries performed to 
@@ -107,7 +107,7 @@ define('LOG_SQL_QUERIES', false);
  * be logged in a log table.
  */
 
-define('LOG_CONTENT_DISPLAY', false);
+define('LOG_CONTENT_DISPLAY', true);
 
 /********************************************************************\
  * WEBSERVER CONFIGURATION                                          *
@@ -157,7 +157,7 @@ define('DATE_TIMEZONE', 'Canada/Eastern');
  * (the part before the _) must be part of the array above (the country
  * subcode may differ, and should be set to your country subcode)
  */
-define('DEFAULT_LANG', 'fr_CA');
+define('DEFAULT_LANG', en_US);
 
 /********************************************************************\
  * WIFIDOG FEATURES CONFIGURATION                                   *
@@ -169,7 +169,7 @@ define('DEFAULT_LANG', 'fr_CA');
  *
  * Enable Google Maps mapping using "hotspots_map.php".
  */
-define('GMAPS_HOTSPOTS_MAP_ENABLED', true);
+define('GMAPS_HOTSPOTS_MAP_ENABLED', false);
 
 /********************************************************************\
  * ADVANCED CONFIGURATION                                           *
